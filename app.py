@@ -75,7 +75,7 @@ def recommend_foods(weight, goal, n_recommendations):
 
 # Create Gradio interface
 with gr.Blocks(title="Food Recommendation System", theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# Food Recommendation System (Updated Dataset)")
+    gr.Markdown("# Sistem Rekomendasi Makanan")
     gr.Markdown("Dapatkan rekomendasi makanan berdasarkan berat badan dan tujuan Anda")
     
     with gr.Row():
