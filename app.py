@@ -1,7 +1,3 @@
-"""
-Food Recommendation System - Gradio Interface
-Updated for new nutrition.csv dataset
-"""
 import gradio as gr
 import pandas as pd
 import joblib
@@ -80,7 +76,7 @@ def recommend_foods(weight, goal, n_recommendations):
 # Create Gradio interface
 with gr.Blocks(title="Food Recommendation System", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# Food Recommendation System (Updated Dataset)")
-    gr.Markdown("Dapatkan rekomendasi makanan berdasarkan berat badan dan tujuan Anda (98%+ Accuracy Model)")
+    gr.Markdown("Dapatkan rekomendasi makanan berdasarkan berat badan dan tujuan Anda")
     
     with gr.Row():
         weight_input = gr.Number(label="Berat Badan (kg)", value=65, minimum=30, maximum=200)
@@ -103,4 +99,4 @@ with gr.Blocks(title="Food Recommendation System", theme=gr.themes.Soft()) as de
     )
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860)
