@@ -1,6 +1,5 @@
 ---
 title: Sistem Rekomendasi Makanan
-emoji: 
 colorFrom: green
 colorTo: yellow
 sdk: docker
