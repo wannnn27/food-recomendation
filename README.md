@@ -1,10 +1,9 @@
 ---
 title: Sistem Rekomendasi Makanan
-emoji: 🥗
+emoji: 
 colorFrom: green
 colorTo: yellow
-sdk: gradio
-sdk_version: "5.0.0"
+sdk: docker
 app_file: app.py
 pinned: false
 license: apache-2.0
@@ -24,4 +23,4 @@ Menggunakan model **Random Forest** dengan akurasi tinggi untuk mengklasifikasik
 3. Klik "Dapatkan Rekomendasi".
 
 ---
-*Created by [arwansyah]*
+*Created by [Your Name]*

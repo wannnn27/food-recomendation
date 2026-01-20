@@ -1,6 +1,4 @@
-gradio>=4.0.0
-huggingface_hub<0.25.0
-pyaudioop 
+gradio>=3.0.0
 pandas
 scikit-learn
 joblib
